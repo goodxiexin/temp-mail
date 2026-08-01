@@ -1,15 +1,13 @@
-name = "my-temp-mail"
-main = "worker.js"
+name = "temp-mail"
 compatibility_date = "2024-10-01"
 
-# Hubungkan ke D1 Database
+# Konfigurasi D1 Database
 [[d1_databases]]
 binding = "DB"
 database_name = "temp-mail-db"
-database_id = "40b51762-894d-4ac0-a7f6-40f2cc21bb73
-"
+database_id = "40b51762-894d-4ac0-a7f6-40f2cc21bb73"
 
-# Hubungkan ke R2 Bucket
+# Konfigurasi R2 Bucket
 [[r2_buckets]]
 binding = "BUCKET"
 bucket_name = "temp-mail-storage"
