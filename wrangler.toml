@@ -1,0 +1,14 @@
+name = "my-temp-mail"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+# Hubungkan ke D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-mail-db"
+database_id = "MASUKKAN_ID_DATABASE_ANDA_DISINI"
+
+# Hubungkan ke R2 Bucket
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "temp-mail-storage"
